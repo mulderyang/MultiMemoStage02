@@ -62,7 +62,7 @@ public class MultiMemoActivity extends Activity {
     		Toast.makeText(this, "SD 카드가 없습니다. SD 카드를 넣은 후 다시 실행하십시오.", Toast.LENGTH_LONG).show();
     		return;
     	} else {
-    		String externalPath = Environment.getExternalStorageDirectory().getAbsolutePath();
+    		String externalPath = getFilesDir().getAbsolutePath();
     		if (!BasicInfo.ExternalChecked && externalPath != null) {
     			BasicInfo.ExternalPath = externalPath + File.separator;
     			Log.d(TAG, "ExternalPath : " + BasicInfo.ExternalPath);
