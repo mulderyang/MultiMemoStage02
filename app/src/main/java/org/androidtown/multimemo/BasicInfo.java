@@ -17,22 +17,22 @@ public class BasicInfo {
 	/**
 	 * 사진 저장 위치
 	 */
-	public static String FOLDER_PHOTO 		= "MultimediaMemo/photo/";
+	public static String FOLDER_PHOTO 		= "photo/";
 
 	/**
 	 * 동영상 저장 위치
 	 */
-	public static String FOLDER_VIDEO 		= "MultimediaMemo/video/";
+	public static String FOLDER_VIDEO 		= "video/";
 
 	/**
 	 * 녹음 저장 위치
 	 */
-	public static String FOLDER_VOICE 		= "MultimediaMemo/voice/";
+	public static String FOLDER_VOICE 		= "voice/";
 
 	/**
 	 * 손글씨 저장 위치
 	 */
-	public static String FOLDER_HANDWRITING 	= "MultimediaMemo/handwriting/";
+	public static String FOLDER_HANDWRITING 	= "handwriting/";
 
 	/**
 	 * 미디어 포맷
@@ -42,7 +42,7 @@ public class BasicInfo {
 	/**
 	 * 데이터베이스 이름
 	 */
-	public static String DATABASE_NAME = "MultimediaMemo/memo.db";
+	public static String DATABASE_NAME = "memo.db";
 
 
 	//========== 인텐트 부가정보 전달을 위한 키값 ==========//
