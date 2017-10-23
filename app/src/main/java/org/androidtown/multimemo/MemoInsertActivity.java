@@ -292,8 +292,8 @@ public class MemoInsertActivity extends Activity {
     	}
 
     	SQL = "insert into " + MemoDatabase.TABLE_MEMO +
-    				"(INPUT_DATE, CONTENT_TEXT, ID_PHOTO, ID_VIDEO, ID_VOICE, ID_HANDWRITING) values(" +
-    				"DATETIME('" + mDateStr + "'), " +
+    				"(CONTENT_TEXT, ID_PHOTO, ID_VIDEO, ID_VOICE, ID_HANDWRITING) values(" +
+    				//"DATETIME('" + mDateStr + "'), " +
     				"'"+ mMemoStr + "', " +
     				"'"+ photoId + "', " +
     				"'"+ "" + "', " +
