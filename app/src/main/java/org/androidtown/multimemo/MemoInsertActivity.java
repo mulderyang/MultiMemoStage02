@@ -678,6 +678,10 @@ public class MemoInsertActivity extends Activity {
 			    	} else {
 			    		Log.d(TAG, "image file doesn't exists : " + BasicInfo.FOLDER_PHOTO + "captured");
 			    	}
+
+			    	if(isPhotoFileSaved) {
+						mMemoMode = BasicInfo.MODE_MODIFY;
+					}
 				}
 
 				break;
@@ -703,6 +707,10 @@ public class MemoInsertActivity extends Activity {
 		            isPhotoCaptured = true;
 
 		            mPhoto.invalidate();
+
+					if(isPhotoFileSaved) {
+						mMemoMode = BasicInfo.MODE_MODIFY;
+					}
 				}
 
 				break;
